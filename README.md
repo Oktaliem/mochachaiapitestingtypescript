@@ -43,6 +43,8 @@ $ npm test
 - https://visionmedia.github.io/superagent/
 - https://www.chaijs.com/
 - https://www.chaijs.com/plugins/chai-http/
+- https://extendsclass.com/json-schema-validator.html
+- https://codebeautify.org/jsonviewer
 
 
 ## Testing Log Sample
