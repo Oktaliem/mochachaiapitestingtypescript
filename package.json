@@ -1,0 +1,43 @@
+{
+  "name": "mochachaiapitestingtypescript",
+  "version": "1.0.0",
+  "description": "Employee",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/specs/**/*.ts --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oktaliem/mochachaiapitestingtypescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oktaliem/mochachaiapitestingtypescript/issues"
+  },
+  "homepage": "https://github.com/Oktaliem/mochachaiapitestingtypescript#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/chai-http": "^3.0.5",
+    "@types/mocha": "^5.2.5",
+    "ajv": "^6.12.2",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-json-schema-ajv": "^5.0.0",
+    "json2typescript": "^1.0.6",
+    "mocha": "^7.2.0",
+    "mochawesome": "^6.1.1",
+    "prettier": "^1.15.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/chai-json-schema": "^1.4.6",
+    "chai-json-schema": "^1.5.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "superagent": "^5.2.2"
+  }
+}
