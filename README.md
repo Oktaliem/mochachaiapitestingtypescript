@@ -35,7 +35,7 @@ $ npm test
 ```
 ## Test Report Sample
 ```
-{path}/apitestingtypescriptmochachai/mochawesome-report/mochawesome.html
+{path}/mochachaiapitestingtypescript/mochawesome-report/mochawesome.html
 ```
 
 ## References
