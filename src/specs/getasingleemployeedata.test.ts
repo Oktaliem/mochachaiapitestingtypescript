@@ -6,12 +6,12 @@ describe("Get Single Employee Data",() =>{
 
     it("TC02 - Get One Employee Data", async function(){
         response = user.getSingleEmployeeInfo("/api/v1/employee/1");
-        user.verifyOneEmployeeInformationReturnSuccessfully(await response);
+        user.verifyOneEmployeeInformationReturnSuccessfully(await response,"valid");
     });
 
     it("TC03 - Get One Employee Data With Invalid id", async function(){
         response = user.getSingleEmployeeInfo("/api/v1/employee/b");
-        user.verifyOneEmployeeInformationReturnSuccessfully(await response);
+        user.verifyOneEmployeeInformationReturnSuccessfully(await response,"invalid");
     });
 
     afterEach(async function () {

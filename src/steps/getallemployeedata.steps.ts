@@ -3,7 +3,7 @@ import { expect, use } from "chai";
 import * as request from 'superagent';
 import chaiHttp = require("chai-http");
 import { url } from "../constants/url.constant";
-import { GetAllEmployees } from "../constants/getallemployee.constant";
+import { GetAllEmployees } from "../constants/getallemployee.jsonschema";
 
 
 export class GetAllEmployeeDataSteps{
@@ -11,7 +11,9 @@ export class GetAllEmployeeDataSteps{
 
     async getGetAllEmployee(endpoint: string){
         let response: request.Response;
-        response = await chai.use(chaiHttp).request(url.apiUrl).get(endpoint);
+        response = await chai.use(chaiHttp)
+                             .request(url.apiUrl)
+                             .get(endpoint);
         return response;
     }
 
