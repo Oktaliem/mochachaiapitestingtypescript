@@ -56,19 +56,22 @@ Log
 
 ```node
 > mochachaiapitestingtypescript@1.0.0 test /home/okta/Documents/GitHub/mochachaiapitestingtypescript
-> mocha -r ts-node/register src/specs/**/*.ts --reporter mochawesome
+> mocha -r ts-node/register src/specs/**/*.ts --reporter mochawesome --timeout 10000
 
 
+
+  Create employee record
+    ✓ TC04 - Create Employee Record (4213ms)
 
   Get All Employee Data
-    ✓ TC01 - Get All Employee Data (1127ms)
+    ✓ TC01 - Get All Employee Data (1243ms)
 
   Get Single Employee Data
-    ✓ TC02 - Get One Employee Data (1158ms)
-    ✓ TC03 - Get One Employee Data With Invalid id (915ms)
+    ✓ TC02 - Get One Employee Data (1174ms)
+    ✓ TC03 - Get One Employee Data With Invalid id (1017ms)
 
 
-  3 passing (3s)
+  4 passing (8s)
 
 [mochawesome] Report JSON saved to /home/okta/Documents/GitHub/mochachaiapitestingtypescript/mochawesome-report/mochawesome.json
 
