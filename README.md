@@ -37,6 +37,9 @@ $ npm test
 ```
 {path}/mochachaiapitestingtypescript/mochawesome-report/mochawesome.html
 ```
+![image](https://user-images.githubusercontent.com/26521948/89772896-6ad03100-db35-11ea-8ae9-1a6c3fd020b6.png)
+
+![image](https://user-images.githubusercontent.com/26521948/89772945-820f1e80-db35-11ea-8b07-2922aba57a6f.png)
 
 ## References
 - https://mochajs.org/
